@@ -1,0 +1,49 @@
+header{
+	background-color: lightblue;
+	padding: 10px 30px 40px 30px;
+	margin: 0;
+	text-align: center;
+}
+header img{
+	width: 285px;
+	border-radius: 96px;
+	border: 20px solid white;
+}
+body{
+	margin: 0;
+	background-color: white;
+
+}
+h1{
+	color: #505AFC;
+	font-size: 40px;
+
+}
+
+ul{
+	list-style-type: circle;
+}
+
+a{
+	color: #505AFC;
+	text-decoration: none;
+}
+.content{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 20px 20px 40px 20px;
+}
+img.big-image{
+	max-width: 100%;
+}
+
+footer{
+	padding: 25px;
+	text-align: center;
+	background-color: lightblue;
+
+}
+p.caption{
+	font-size: 17px;
+	color: grey;
+}
