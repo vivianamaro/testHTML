@@ -1,6 +1,8 @@
 header{
 	background-color: lightblue;
-	padding: 10px 30px 40px 30px;
+	background-image: url('../images/jasmine3.jpg');
+	background-repeat: repeat;
+	padding: 30px 30px 80px 30px;
 	margin: 0;
 	text-align: center;
 }
@@ -8,6 +10,7 @@ header img{
 	width: 285px;
 	border-radius: 96px;
 	border: 20px solid white;
+	box-shadow: 0 10px 20px black;
 }
 body{
 	margin: 0;
@@ -15,9 +18,14 @@ body{
 
 }
 h1{
-	color: #505AFC;
+	color: white;
 	font-size: 40px;
+	text-shadow: 0 4px 20px black;
 
+}
+
+h2{
+	color: #006666;
 }
 
 ul{
@@ -25,8 +33,12 @@ ul{
 }
 
 a{
-	color: #505AFC;
+	color: #57c1b7;
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: #006666;
 }
 .content{
 	max-width: 1300px;
@@ -37,10 +49,11 @@ img.big-image{
 	max-width: 100%;
 }
 
+
 footer{
 	padding: 25px;
 	text-align: center;
-	background-color: lightblue;
+	background-color: #57c1b7;
 
 }
 p.caption{
